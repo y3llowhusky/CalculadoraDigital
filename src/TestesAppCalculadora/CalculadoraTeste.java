@@ -15,11 +15,11 @@ public class CalculadoraTeste {
 	    */
 	   @Test
 	   public void testeSomar5com5() {    
-		   int nro1 = 5;
-		   int nro2 = 5;
+		   double nro1 = 5;
+		   double nro2 = 5;
 	       Calculadora calc= new Calculadora();
-	       int resultadoEsperado = 10;
-	       int resultadoReal= calc.somar(nro1, nro2);      
+	       double resultadoEsperado = 10;
+	       double resultadoReal= calc.somar(nro1, nro2);      
 	       assertEquals(resultadoEsperado, resultadoReal);
 	   }
 
@@ -28,11 +28,11 @@ public class CalculadoraTeste {
 	   */
 	  @Test
 	  public void testeSubtrair3de5() {
-		  int nro1 = 5;
-		  int nro2 = 3;
+		  double nro1 = 5;
+		  double nro2 = 3;
 	      Calculadora calc = new Calculadora();
-	      int resultadoEsperado= 2;
-	      int resultadoReal= calc.subtrair(nro1, nro2);
+	      double resultadoEsperado= 2;
+	      double resultadoReal= calc.subtrair(nro1, nro2);
 	      assertEquals(resultadoEsperado, resultadoReal);  
 	  }
 	  
@@ -42,11 +42,11 @@ public class CalculadoraTeste {
 	   @Test
 	   public void testeMultiplicar3por3() {
 		   
-		   int nro1 = 3;
-		   int nro2 = 3;
+		   double nro1 = 3;
+		   double nro2 = 3;
 	       Calculadora calc = new Calculadora();
-	       int resultadoEsperado = 9;
-	       int resultadoReal = calc.multiplicar(nro1, nro2);
+	       double resultadoEsperado = 9;
+	       double resultadoReal = calc.multiplicar(nro1, nro2);
 	       assertEquals(resultadoEsperado, resultadoReal);
 	   }
 
@@ -56,11 +56,11 @@ public class CalculadoraTeste {
 	  @Test
 	  public void testeDividir3por2() {
 		  
-		  int nro1 = 3;
-		  int nro2 = 2;
+		  double nro1 = 3;
+		  double nro2 = 2;
 	      Calculadora calc = new Calculadora();
-	      int resultadoEsperado= 1;
-	      int resultadoReal = calc.dividir(nro1, nro2);
+	      double resultadoEsperado= 1;
+	      double resultadoReal = calc.dividir(nro1, nro2);
 	      assertEquals(resultadoEsperado, resultadoReal);
 	  }
 
